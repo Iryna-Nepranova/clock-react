@@ -2,37 +2,21 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+  font-size: 50px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: blueviolet;   
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button {
+  height: 80px;
+  width: 120px;
+  margin-right: 20px;
+  font-size: 30px;
+  color: rgb(215, 233, 236);
+  background-color:rgb(128, 30, 219);
+  border-radius: 10px;
+  border: 2px solid grey;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
